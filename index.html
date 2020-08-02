@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Can you feel?</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(function(){
+   $("#page-top a").click(function(){
+   //↑id="page-top"がクリックされたら
+    $('html,body').animate({scrollTop:0},'fast');
+    //↑fast(最速)で、トップへスクロール
+　　return false;
+  });
+});
+</script>
+    <style>
+    P{text-align:center;}
+    </style>
+</head>
+<body>
+  <p><br><br>Can you feel?<br><br><br>profile<br><br>
+  skill<br><br>works
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br>
+  profile<br><br>
+  I can feel<br>
+  and,I can fly.
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br><br><br><br>
+  <br><br>
+  </p>
+  <p id="page-top"><a href="#">top</a></p>
+ </body>
+</html>
